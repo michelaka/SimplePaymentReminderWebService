@@ -14,6 +14,7 @@ namespace SimplePaymentReminderDataAccessNF
     
     public partial class PaymentReminder
     {
+
         public int ID { get; set; }
         public Nullable<int> UserID { get; set; }
         public string CustomerName { get; set; }
